@@ -8,7 +8,7 @@ const vid = document.querySelectorAll('video')[0];
 const span = document.querySelectorAll('span');
 
 /*-----------------------------------------------------------------
-JavaScript change the color of the text when the currentTime of the embedded video is between the start and end tags.
+event listener to change the color of the text when the currentTime of the embedded video is between the start and end tags.
 -----------------------------------------------------------------*/
 
 vid.addEventListener('timeupdate', () => {
